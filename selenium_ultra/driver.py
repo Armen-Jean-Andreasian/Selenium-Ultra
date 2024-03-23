@@ -18,7 +18,7 @@ class Driver(webdriver.Chrome):
             maximized_mode: bool = True,
             disable_controlled: bool = True,
             custom_option_arguments: tuple[str] | Iterable[str] = None,
-            custom_option_experimental_arguments: Sequence[Sequence[str, Any]] = None
+            custom_option_experimental_arguments: tuple[tuple[str, Any]] = None
 
     ):
         """
